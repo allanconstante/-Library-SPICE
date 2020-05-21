@@ -1,1 +1,1 @@
-# -Library-SPICE
+# Library-SPICE
