@@ -24,7 +24,7 @@
 * - Hfin: Altura do fin;
 * - Lfin: Comprinento do fin;
 * - Nfin: Quantidade de fins;
-* - Nf:   Quantidade de finger (gates);
+* - Nf:   Quantidade de fingers (gates);
 *
 * O parâmetro Lfin é utilizado para a realização dos calculos das área e perimetros do drain e source.
 * O valor da área e perimetro considerados é a somatoria de todos os fins, sendo o numero total de fins
@@ -44,75 +44,75 @@
 
 	*Ins.	Drain	Gate	Source	Buck	Type
 	msc1 	bit		Nbti	vdd 	vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msc3 	bit		nbit	vss 	vss 	nfet 	
-		+	l=Lg
-		+	nf=Nf
-		+	nfin='2*Nfin'
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msc2 	nbit	bit		vdd 	vdd 	pfet 	
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msc4 	nbit	Pbti	vss 	vss 	nfet 	
-		+	l=Lg
-		+	nf=Nf
-		+	nfin='2*Nfin'
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msc5 	bit 	wl 		BL		vss 	nfet 	
-		+	l=Lg
-		+	nf=Nf
-		+	nfin='2*Nfin'
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msc6 	nbit 	wl 		nBL		vss 	nfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin='2*Nfin'
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 .ends sram_cell
 
@@ -120,141 +120,141 @@
 
 	*Ins.	Drain	Gate	Source	Buck	Type
 	msa1 	SA		nSA	 	vdd 	vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msa3 	SA		nSA	 	saf 	vss 	nfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin='2*Nfin'
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msa2 	nSA 	SA	 	vdd 	vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msa4 	nSA 	SA	 	saf 	vss 	nfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin='2*Nfin'
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msa5	saf 	rd 		vss 	vss 	nfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin='4*Nfin'
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '4*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msa6	SA	 	nLPC 	vdd 	vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msa7	nSA	 	nLPC 	vdd 	vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msa8	SA	 	nLPC 	nSA 	vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msa9	SA	 	srd 	BL	 	vss 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin='2*Nfin'
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	msa10	nSA	 	srd 	nBL	 	vss 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin='2*Nfin'
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	xd1		vdd		vss 	SA		nout		inv
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	lfin=Lfin
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	lfin = Lfin
 	*===========================================
 
 	xd2		vdd		vss 	nSA		out			inv
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	lfin=Lfin
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	lfin = Lfin
 	*===========================================
 
 .ends sense_amplifier
@@ -263,87 +263,87 @@
 
 	*Ins.	Drain	Gate	Source	Buck	Type
 	mcw1 	CW		nCW		vdd 	vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	mcw3 	CW		nCW		scf	 	vss 	nfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	mcw2 	nCW		in		vdd		vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 	
 	mcw4 	nCW		in		scf	 	vss 	nfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	mcw5	scf	 	wr		vss 	vss 	nfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin='2*Nfin'
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	mcw6	CW	 	swr		BL  	vss 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	mcw7	nCW	 	swr		nBL 	vss 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = '2*Nfin'
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 .ends ckt_write
 
@@ -351,38 +351,38 @@
 
 	*Ins.	Drain	Gate	Source	Buck	Type
 	mpc1 	BL		nPC		vdd 	vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	mpc2 	nBL		nPC		vdd 	vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 
 	mpc3 	nBL		nPC		BL  	vdd 	pfet
-		+	l=Lg
-		+	nf=Nf
-		+	nfin=Nfin
-		+	hfin=Hfin
-		+	tfin=Tfin
-		+	asej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	psej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
-		+	adej='(Tfin*Lfin)*(Nfin*Nf)'
-		+	pdej='(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	l    = Lg
+		+	nf   = Nf
+		+	nfin = Nfin
+		+	hfin = Hfin
+		+	tfin = Tfin
+		+	asej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	psej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
+		+	adej = '(Tfin*Lfin)*(Nfin*Nf)'
+		+	pdej = '(2*Tfin+2*Lfin)*(Nfin*Nf)'
 	*===========================================
 .ends pre_charge
